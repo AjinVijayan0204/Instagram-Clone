@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		873199EA2A89E7A600A22A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873199E92A89E7A600A22A75 /* AppDelegate.swift */; };
 		873199EC2A89E7A600A22A75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873199EB2A89E7A600A22A75 /* SceneDelegate.swift */; };
-		873199EE2A89E7A600A22A75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873199ED2A89E7A600A22A75 /* ViewController.swift */; };
+		873199EE2A89E7A600A22A75 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873199ED2A89E7A600A22A75 /* HomeViewController.swift */; };
 		873199F12A89E7A600A22A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873199EF2A89E7A600A22A75 /* Main.storyboard */; };
 		873199F32A89E7A700A22A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873199F22A89E7A700A22A75 /* Assets.xcassets */; };
 		873199F62A89E7A700A22A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873199F42A89E7A700A22A75 /* LaunchScreen.storyboard */; };
+		87319A032A89F5E900A22A75 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A022A89F5E900A22A75 /* ExploreViewController.swift */; };
+		87319A052A89F65E00A22A75 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A042A89F65E00A22A75 /* CameraViewController.swift */; };
+		87319A072A89F66F00A22A75 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A062A89F66F00A22A75 /* NotificationViewController.swift */; };
+		87319A092A89F69B00A22A75 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A082A89F69B00A22A75 /* ProfileViewController.swift */; };
+		87319A0E2A89F7E300A22A75 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A0D2A89F7E300A22A75 /* LoginViewController.swift */; };
+		87319A102A89F7F300A22A75 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A0F2A89F7F300A22A75 /* RegistrationViewController.swift */; };
+		87319A122A89F89700A22A75 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A112A89F89700A22A75 /* PostViewController.swift */; };
+		87319A142A89F8AE00A22A75 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A132A89F8AE00A22A75 /* EditProfileViewController.swift */; };
+		87319A162A89F8D300A22A75 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A152A89F8D300A22A75 /* SettingsViewController.swift */; };
+		87319A182A89F8EE00A22A75 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A172A89F8EE00A22A75 /* ListViewController.swift */; };
+		87319A1A2A89F8FF00A22A75 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A192A89F8FF00A22A75 /* SearchViewController.swift */; };
+		87319A1C2A89F91E00A22A75 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A1B2A89F91E00A22A75 /* SearchResultViewController.swift */; };
+		87319A1E2A89FA8400A22A75 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A1D2A89FA8400A22A75 /* PostEditorViewController.swift */; };
+		87319A202A89FA9800A22A75 /* PublishPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319A1F2A89FA9800A22A75 /* PublishPostsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		873199E62A89E7A600A22A75 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		873199E92A89E7A600A22A75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		873199EB2A89E7A600A22A75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		873199ED2A89E7A600A22A75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		873199ED2A89E7A600A22A75 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		873199F02A89E7A600A22A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		873199F22A89E7A700A22A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		873199F52A89E7A700A22A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873199F72A89E7A700A22A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87319A022A89F5E900A22A75 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		87319A042A89F65E00A22A75 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		87319A062A89F66F00A22A75 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		87319A082A89F69B00A22A75 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		87319A0D2A89F7E300A22A75 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		87319A0F2A89F7F300A22A75 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		87319A112A89F89700A22A75 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		87319A132A89F8AE00A22A75 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		87319A152A89F8D300A22A75 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		87319A172A89F8EE00A22A75 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		87319A192A89F8FF00A22A75 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		87319A1B2A89F91E00A22A75 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		87319A1D2A89FA8400A22A75 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		87319A1F2A89FA9800A22A75 /* PublishPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +96,8 @@
 		873199FD2A89E99800A22A75 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				873199ED2A89E7A600A22A75 /* ViewController.swift */,
+				87319A0B2A89F6F500A22A75 /* Other */,
+				87319A0A2A89F6B200A22A75 /* Core Tabs */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -105,6 +134,43 @@
 				873199F42A89E7A700A22A75 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		87319A0A2A89F6B200A22A75 /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				873199ED2A89E7A600A22A75 /* HomeViewController.swift */,
+				87319A022A89F5E900A22A75 /* ExploreViewController.swift */,
+				87319A042A89F65E00A22A75 /* CameraViewController.swift */,
+				87319A062A89F66F00A22A75 /* NotificationViewController.swift */,
+				87319A082A89F69B00A22A75 /* ProfileViewController.swift */,
+			);
+			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		87319A0B2A89F6F500A22A75 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				87319A0C2A89F79A00A22A75 /* Onboarding */,
+				87319A112A89F89700A22A75 /* PostViewController.swift */,
+				87319A132A89F8AE00A22A75 /* EditProfileViewController.swift */,
+				87319A152A89F8D300A22A75 /* SettingsViewController.swift */,
+				87319A172A89F8EE00A22A75 /* ListViewController.swift */,
+				87319A192A89F8FF00A22A75 /* SearchViewController.swift */,
+				87319A1B2A89F91E00A22A75 /* SearchResultViewController.swift */,
+				87319A1D2A89FA8400A22A75 /* PostEditorViewController.swift */,
+				87319A1F2A89FA9800A22A75 /* PublishPostsViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		87319A0C2A89F79A00A22A75 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				87319A0D2A89F7E300A22A75 /* LoginViewController.swift */,
+				87319A0F2A89F7F300A22A75 /* RegistrationViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,9 +244,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873199EE2A89E7A600A22A75 /* ViewController.swift in Sources */,
+				87319A142A89F8AE00A22A75 /* EditProfileViewController.swift in Sources */,
+				87319A032A89F5E900A22A75 /* ExploreViewController.swift in Sources */,
+				87319A052A89F65E00A22A75 /* CameraViewController.swift in Sources */,
+				87319A072A89F66F00A22A75 /* NotificationViewController.swift in Sources */,
+				87319A102A89F7F300A22A75 /* RegistrationViewController.swift in Sources */,
+				87319A1E2A89FA8400A22A75 /* PostEditorViewController.swift in Sources */,
+				87319A122A89F89700A22A75 /* PostViewController.swift in Sources */,
+				873199EE2A89E7A600A22A75 /* HomeViewController.swift in Sources */,
+				87319A1C2A89F91E00A22A75 /* SearchResultViewController.swift in Sources */,
+				87319A0E2A89F7E300A22A75 /* LoginViewController.swift in Sources */,
+				87319A1A2A89F8FF00A22A75 /* SearchViewController.swift in Sources */,
+				87319A092A89F69B00A22A75 /* ProfileViewController.swift in Sources */,
 				873199EA2A89E7A600A22A75 /* AppDelegate.swift in Sources */,
 				873199EC2A89E7A600A22A75 /* SceneDelegate.swift in Sources */,
+				87319A202A89FA9800A22A75 /* PublishPostsViewController.swift in Sources */,
+				87319A182A89F8EE00A22A75 /* ListViewController.swift in Sources */,
+				87319A162A89F8D300A22A75 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
