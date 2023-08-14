@@ -56,6 +56,10 @@
 		873199E82A89E7A600A22A75 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				87319A002A89E9B800A22A75 /* Resources */,
+				873199FF2A89E9B200A22A75 /* Models */,
+				873199FE2A89E9A800A22A75 /* Views */,
+				873199FD2A89E99800A22A75 /* Controllers */,
 				873199E92A89E7A600A22A75 /* AppDelegate.swift */,
 				873199EB2A89E7A600A22A75 /* SceneDelegate.swift */,
 				873199ED2A89E7A600A22A75 /* ViewController.swift */,
@@ -65,6 +69,34 @@
 				873199F72A89E7A700A22A75 /* Info.plist */,
 			);
 			path = Instagram;
+			sourceTree = "<group>";
+		};
+		873199FD2A89E99800A22A75 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		873199FE2A89E9A800A22A75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		873199FF2A89E9B200A22A75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		87319A002A89E9B800A22A75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
