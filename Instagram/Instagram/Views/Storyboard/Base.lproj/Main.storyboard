@@ -40,27 +40,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="181-Q9-k9P" kind="relationship" relationship="rootViewController" id="as8-QI-TbZ"/>
+                        <segue destination="QP1-D9-DFL" kind="relationship" relationship="rootViewController" id="i8T-oR-HfL"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T4V-zL-LdF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-781" y="788"/>
-        </scene>
-        <!--Home View Controller-->
-        <scene sceneID="H1C-mc-J98">
-            <objects>
-                <viewController id="6fc-bS-LlR" customClass="HomeViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="c5D-Jr-aR9">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="uSE-m1-2HN"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qtz-co-FQv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-782" y="1589"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CUT-fx-jL9">
@@ -131,18 +116,18 @@
             <point key="canvasLocation" x="847" y="787"/>
         </scene>
         <!--Home View Controller-->
-        <scene sceneID="9x8-Rf-PvY">
+        <scene sceneID="rrr-nJ-4FU">
             <objects>
-                <viewController id="181-Q9-k9P" customClass="HomeViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Dty-2V-QCm">
+                <viewController id="QP1-D9-DFL" customClass="HomeViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AhR-3F-YQF">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="vbG-nc-po3"/>
+                        <viewLayoutGuide key="safeArea" id="wqU-Jb-O0y"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="npU-87-jlF"/>
+                    <navigationItem key="navigationItem" id="CfO-Gi-jlL"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vqu-K8-ir5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tv8-xZ-Xcr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-782" y="1589"/>
         </scene>
