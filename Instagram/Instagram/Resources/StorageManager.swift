@@ -5,7 +5,7 @@
 //  Created by Ajin on 15/08/23.
 //
 
-import Foundation
+import FirebaseStorage
 
 public class StorageManager{
     
