@@ -162,14 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				87319A0C2A89F79A00A22A75 /* Onboarding */,
-				87319A112A89F89700A22A75 /* PostViewController.swift */,
-				87319A132A89F8AE00A22A75 /* EditProfileViewController.swift */,
-				87319A152A89F8D300A22A75 /* SettingsViewController.swift */,
-				87319A172A89F8EE00A22A75 /* ListViewController.swift */,
-				87319A192A89F8FF00A22A75 /* SearchViewController.swift */,
-				87319A1B2A89F91E00A22A75 /* SearchResultViewController.swift */,
-				87319A1D2A89FA8400A22A75 /* PostEditorViewController.swift */,
-				87319A1F2A89FA9800A22A75 /* PublishPostsViewController.swift */,
+				875A92402A8B6F150048970C /* General */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -181,6 +174,21 @@
 				87319A0F2A89F7F300A22A75 /* RegistrationViewController.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		875A92402A8B6F150048970C /* General */ = {
+			isa = PBXGroup;
+			children = (
+				87319A112A89F89700A22A75 /* PostViewController.swift */,
+				87319A132A89F8AE00A22A75 /* EditProfileViewController.swift */,
+				87319A152A89F8D300A22A75 /* SettingsViewController.swift */,
+				87319A172A89F8EE00A22A75 /* ListViewController.swift */,
+				87319A192A89F8FF00A22A75 /* SearchViewController.swift */,
+				87319A1B2A89F91E00A22A75 /* SearchResultViewController.swift */,
+				87319A1D2A89FA8400A22A75 /* PostEditorViewController.swift */,
+				87319A1F2A89FA9800A22A75 /* PublishPostsViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 		8E944C1D1128DFB791213DF9 /* Frameworks */ = {
